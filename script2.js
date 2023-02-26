@@ -1,10 +1,19 @@
 let a = Number(prompt ("First number"));
 let b = Number(prompt ("Second number"));
-function calculate (a, b) {
-    console.log("Result of addition is " + (a + b));
-    console.log("Result of subtraction is " + (a - b));
-    console.log("Result of multiplication is " + (a * b));
-    console.log("Result of division is " + (a / b));
+function add (a, b) {
+     console.log(`Result: ${a} + ${b} = ${a + b}`);
 }
+function subtract (a, b) {
+    console.log(`Result: ${a} - ${b} = ${a - b}`);
+}
+function multiply (a, b) {
+    console.log(`Result: ${a} * ${b} = ${a * b}`);
+}
+function divide (a, b) {
+    console.log(`Result: ${a} / ${b} = ${a / b}`);
+}
+add(a, b);
+subtract(a, b);
+multiply(a, b);
+divide(a, b);
 
-calculate(a, b);

@@ -8,7 +8,10 @@ alert(`Hello, ${userName}! How are you?`);
 // }
 //     else if (userName === '') {
 //         alert("Please, answer again");
+//         prompt("What is your name?");
 //
 // } else {
 //     alert(`Hello, ${userName}! How are you?`);
 // }
+
+

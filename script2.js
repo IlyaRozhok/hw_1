@@ -1,5 +1,5 @@
-let a = Number(prompt ("First number"));
-let b = Number(prompt ("Second number"));
+const a = Number(prompt ("First number"));
+const b = Number(prompt ("Second number"));
 function add (a, b) {
      console.log(`Result: ${a} + ${b} = ${a + b}`);
 }

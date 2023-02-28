@@ -5,10 +5,10 @@ admin = name;
 alert(admin);
 
 // Task #2
-let planetName = "Earth";
+let ourPlanetName = "Earth";
 let currentUserName = "Ann";
 
 
 // Task #3
 let a = '10' + 10;
-console.log(typeof a);
+console.log(typeof a); //string
